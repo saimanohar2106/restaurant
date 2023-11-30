@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ceb9d8066.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.ibb.co/SNJGTdD/0819c97c-88e7-4a7a-a197-024e61d6d002.png" class="seven-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" id="navitem1" href="#wcusection">
+                        WHY CHOOSE US?
+
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" id="navitem2" href="#exploremenusection">EXPLORE MENU</a>
+                    <a class="nav-link" id="navitem3" href="#deliverysection">DELIVERY & PAYMENT</a>
+                    <a class="nav-link" id="navitem4" href="#followussection">FOLLOW US</a>
+                </div>
+            </div>
+    </nav>
+    <div class="banner-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">
+                GET DELICIOUS FOOD ANYTIME
+            </h1>
+            <p class="banner-description">EAT SMART AND HEALTHY</p>
+            <button class="custom-button">VIEW MORE</button>
+            <button class="custom-outline-button">ORDER NOW</button>
+        </div>
+    </div>
+    <div class="wcu-section pt-5 pb-5" id="wcusection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">WHY CHOOSE US?</h1>
+                    <p class="wcu-section-description"> We use both original recipes and classic versions of famous food
+                        items.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">FOOD SERVICE</h1>
+                        <p class="wcu-card-description p-2">The Fresh Food group provides fresh-cut fruits and vegetables
+                            directly picked from our partner farms and farm houses so that
+                            you always get them tree to plate.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">FRESH FOOD</h1>
+                        <p class="wcu-card-description p-2">Experience fine dining at the comfort of your home. All our
+                            orders are carefully packed and arranged to give you the nothing
+                            less than perfect.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">BEST OFFERS</h1>
+                        <p class="wcu-card-description p-2">Food Coupons & Offers upto
+                            <span class="offers">50% OFF</span>
+                            and Exclusive Promo Codes on All Online Food Orders.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="exploremenusection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">EXPLORE MENU</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/delicious-indian-food-tray_23-2148723505.jpg?w=900&t=st=1681589954~exp=1681590554~hmac=ec453f1159d193e975bbfddaa6b8dab78a604323a4d66fb914dd2ef2ae2c7ae5.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">VEG BUFFET</h1>
+                        <button class="custom-button" onclick="display('vegbuffetsection')">
+                            VIEW ALL
+                        </button>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/side-view-chicken-meatballs-with-greens-ketchup-plate_141793-4839.jpg?w=1060&t=st=1681592105~exp=1681592705~hmac=eab239673bf087d04330c138bb02b19fd0f39810bc65bd71b36a8c128b278523.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">VEG STARTERS</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/tomato-soup-with-green-table_140725-2447.jpg?w=996&t=st=1681627936~exp=1681628536~hmac=90ad5586f67edb58a80e81e95caf89ee6c5f613ef22144a9bfd529b5a590e7e9.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">CHINESE SOUPS</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/top-view-delicious-noodles-concept_23-2148773775.jpg?w=1060&t=st=1681632747~exp=1681633347~hmac=8d36ba4628390f8a094f38b9c358d3f991336596449aa2a58acd9d7f4db146d1.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">VEG NOODLES</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/high-angle-chicken-meal_23-2148825122.jpg?w=1060&t=st=1681632313~exp=1681632913~hmac=f9a829c05f3af5dce63856edeae62f3cf49cfb2b3ee288e222d7fe71ed08f03d.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">MAIN COURSE</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/sausage-fried-rice-with-tomatoes-carrots-shiitake-mushrooms-plate_1150-27184.jpg?w=1060&t=st=1681632502~exp=1681633102~hmac=988c74c27c8a91c107c9be0f04690083372ce7f2d8116a39db0b36252cd203f9.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">FRIED RICE</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/veg-biryani-veg-pulav-fried-rice-indian-food-generative-ai_1258-151588.jpg?w=1060&t=st=1681633417~exp=1681634017~hmac=a7717afa88c9720a532a2bd0379433ff9d254eb59dbca992904eab5ab67e677b.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">BIRYANI</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/front-view-delicious-shaurma-sliced-pita-sandwich-with-french-fries-dark-surface-food-burger-bread-grill-meal-snack-toast_140725-153842.jpg?w=1060&t=st=1681632873~exp=1681633473~hmac=254919bdf5b6ea400d9c9f73a2251122e157b52d0a9cef3f013ee776fbbff5d5.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">VEG ROLLS</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/delicious-indian-dosa-composition_23-2149086051.jpg?w=1060&t=st=1681633863~exp=1681634463~hmac=1ebe8c9de56ccdc8e2f54750a724dd4f74c1e44914870e1e2deadc3877fb42bc.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">BREAKFAST</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-vector/white-cup-hot-coffee-with-cinnamon-saucer-beans-wooden-table-realistic_1284-56783.jpg?w=826&t=st=1681634013~exp=1681634613~hmac=3329b2bc86c4da176fb2070ee2c76ceb2cc84e327da6dbcf24f17dad7b4c1d37.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">BEVERAGES</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/top-view-set-ice-cream-cones-with-chocolate_23-2148425392.jpg?w=1060&t=st=1681634116~exp=1681634716~hmac=fb2233ff02870281b74183665518f01b0e51805e7307656c9ddc5c021447aaa4.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">ICECREAMS</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/front-view-fresh-fruit-cocktails-with-fresh-fruit-slices-ice-cooling-blue-drink-juice-cocktail-fruit-color_140725-24741.jpg?w=1060&t=st=1681634197~exp=1681634797~hmac=de321bf42a9376a1c139c29bd6f61858a46d7053a7d0bcedcdb126bd523fda38.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">JUICES</h1>
+                        <a href="" class="menu-item-link">
+                            view all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliverysection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-2 order-md-1">
+                    <div class="text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" class="delivery-payment-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-1 order-md-2">
+                    <h1 class="delivery-payment-heading">DELIVERY AND PAYMENT</h1>
+                    <p class="delivery-payment-description">Enjoy hassle-free payment with the plenitude of payment options
+                        available for you. Get live tracking and locate your food on a
+                        live map. It's quite a sight to see your food arrive to your door.
+                        Plus, you get a 5% discount on every order every time you pay
+                        online.</p>
+                    <button class="custom-button">ORDER NOW</button>
+                    <div class="mt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img p-1" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img p-1" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-img p-1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thanking-you-section pt-5 pb-5 d-flex justify-content-center flex-column">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <h1 class="thanking-you-section-heading">THANK YOU FOR BEING VALUABLE CUSTOMER FOR US</h1>
+                    <p class="thanking-you-section-description">We have a surprise gift for you</p>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-you-section-img d-md-none" />
+                    <!-- Button trigger modal -->
+                    <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                        REDEEM NOW
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">GIFT VOUCHER</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="w-100" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-you-section-img d-none d-md-block" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="followussection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">FOLLOW US</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <a href="https://twitter.com/7_to_9_foods"><i class="fab fa-twitter icon"></i></a>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <a href=""><i class="fab fa-instagram icon"></i></a>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <a href=""><i class="fab fa-facebook icon"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="food-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://i.ibb.co/SNJGTdD/0819c97c-88e7-4a7a-a197-024e61d6d002.png" class="seven-logo" />
+                    <h1 class="food-section-email">7 to 9 foods@gmail.com</h1>
+                    <p class="food-section-address">East point colony,Pedda waltair,Visakhapatnam</p>
+                    <p class="food-section-contact">Contact No: +91 8179799733</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
